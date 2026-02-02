@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Percent_Owned" directorySegmentName="seg_0" id="642833EF-89B4-1715-059B-E0D588C701B0">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:20:47 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="true"/>
+</engineerTo>
+<sourcePk>A6E2757C-E6EE-6DCE-AE1D-7460D9D8488F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>06B65D48-0A9F-16A2-50C6-D68A5533F7B3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>852542C6-CF40-14C4-9D24-29102AEDAEB3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Percent_Owned" id="2CC3FF4C-B8ED-1234-C125-1BA18DF44426">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:24:36 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

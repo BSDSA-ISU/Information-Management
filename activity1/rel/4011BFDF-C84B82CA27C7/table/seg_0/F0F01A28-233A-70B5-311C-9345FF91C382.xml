@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0F01A28-233A-70B5-311C-9345FF91C382" name="Employee">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:29:55 UTC</createdTime>
+<generatorID>F4586680-C2B3-74A8-68E1-8C58CCC46769</generatorID>
+<ownerDesignName>activity1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Employee_ID" id="80BF6CC5-6F7C-2AE5-BAC4-67681B5EBFB3">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:29:55 UTC</createdTime>
+<generatorID>CCDF9969-A181-D903-25F8-D81F81D4D954</generatorID>
+<ownerDesignName>activity1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>33</dataTypeSize>
+<ownDataTypeParameters>33,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employee_Name" id="9DD6F335-FF22-F349-F52A-B2B915A789B5">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:29:55 UTC</createdTime>
+<generatorID>A898DCD8-957F-4138-72DF-780164140970</generatorID>
+<ownerDesignName>activity1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<ownDataTypeParameters>22,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Office_Number" id="F6923324-5D4E-A0E2-7ED1-C68B0E7466AE">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:29:55 UTC</createdTime>
+<generatorID>6AFC90D9-5BE2-6711-A010-B63D9A9A0548</generatorID>
+<ownerDesignName>activity1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<ownDataTypeParameters>22,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sales_Office_Office_Number" id="32503124-23B3-4FAF-8D35-2174A1DD08C9">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:33:17 UTC</createdTime>
+<generatorID>BAA3E72F-CC60-1E88-65B7-269F97A30EB7</generatorID>
+<ownerDesignName>activity1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5589CE0-C6A6-3DCE-B3BC-68F49CAE8149" referredColumn="A5BB60A6-667B-B764-8322-A33408F86E6A"/>
+</associations>
+</Column>
+<Column name="Sales_Office_Office_Number2" id="D904877F-DD89-9DD8-F0AF-E66FDC8E8375">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:39:51 UTC</createdTime>
+<generatorID>CA1544A3-7D1C-9C99-B160-A7E39EA4CF90</generatorID>
+<ownerDesignName>activity1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94CF6695-DEC5-2DF1-2958-561188A0E128" referredColumn="A5BB60A6-667B-B764-8322-A33408F86E6A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="042C2616-9B81-B762-8879-1F925AEB8B6A" name="Employee_PK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:29:55 UTC</createdTime>
+<generatorID>0F7736A8-31F5-F76E-6A13-82A66BFB11AD</generatorID>
+<ownerDesignName>activity1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80BF6CC5-6F7C-2AE5-BAC4-67681B5EBFB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D289C29-7789-6775-E667-FA6F6A49FB63" name="Employee__IDX">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:33:17 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D9499E7A-8E8A-7227-C2D3-C1C4270B2F84</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="32503124-23B3-4FAF-8D35-2174A1DD08C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3460846-AD2B-2093-D109-5ED9742091CD" name="Employee__IDXv1">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:39:51 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EA5DCF28-7D80-6E7B-4733-CA86E04CA0E7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D904877F-DD89-9DD8-F0AF-E66FDC8E8375"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E49C8D76-E191-18CE-DEC0-5997C0E1B8E0" name="Employee_Sales_Office_FK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:33:17 UTC</createdTime>
+<generatorID>D9499E7A-8E8A-7227-C2D3-C1C4270B2F84</generatorID>
+<ownerDesignName>activity1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32503124-23B3-4FAF-8D35-2174A1DD08C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EE8C322-D729-A53F-2335-E45E8626A625" name="Employee_Sales_Office_FKv2">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:39:51 UTC</createdTime>
+<generatorID>EA5DCF28-7D80-6E7B-4733-CA86E04CA0E7</generatorID>
+<ownerDesignName>activity1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D904877F-DD89-9DD8-F0AF-E66FDC8E8375"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

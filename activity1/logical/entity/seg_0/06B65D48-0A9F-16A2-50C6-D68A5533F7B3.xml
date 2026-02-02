@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06B65D48-0A9F-16A2-50C6-D68A5533F7B3" name="Property">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 00:50:24 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="property" id="6AED90DB-7A7E-7274-F90D-D2B691A309A6">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 00:52:23 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<ownDataTypeParameters>22,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="A5798CE0-2844-5347-9BEB-90E0A9D04135">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 00:53:36 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="71638C2B-88ED-FE08-3148-1A313D0B27C2">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 00:53:53 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="State" id="DE779E8C-B044-5E2C-65FD-0FF800A76372">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 00:54:05 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<ownDataTypeParameters>22,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zip_Code" id="B77580B3-9C3F-73B9-8FE0-F9321F716227">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 00:54:21 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Office_number" id="ED1605E4-ECBF-3109-CDEF-59FD6A8E29A2">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 00:54:36 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<ownDataTypeParameters>22,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Owner" id="95330446-319F-18CF-5DD5-0D6C1CD9E963">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 00:54:54 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<ownDataTypeParameters>22,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Office_Number1" id="765CA858-C770-25F6-C9DE-C3F2891E140D">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:01:59 UTC</createdTime>
+<generatorID>BE96DE2C-5FBA-47B3-DD6B-CA7428269AD0</generatorID>
+<ownerDesignName>activity1</ownerDesignName>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="true"/>
+</engineerTo>
+<referedAttribute>34C180A0-8A8D-A44E-E608-D3A1A80D07F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A6E2757C-E6EE-6DCE-AE1D-7460D9D8488F" name="Property PK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 00:53:34 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6AED90DB-7A7E-7274-F90D-D2B691A309A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

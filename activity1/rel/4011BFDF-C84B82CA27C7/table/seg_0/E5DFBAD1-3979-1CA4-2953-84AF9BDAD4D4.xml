@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5DFBAD1-3979-1CA4-2953-84AF9BDAD4D4" name="Percent_Owned">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:29:56 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Property_property" id="53D01321-C120-7E56-4F4C-7AAF64424C16">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:29:56 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FD2BEE3-8811-90FF-2611-5C0BADA05833" referredColumn="10467852-971D-03D1-B330-1ADD1B48C3EB"/>
+</associations>
+</Column>
+<Column name="owner_Owner_ID" id="0466988C-CC07-BAB5-9880-CA69EA4531D5">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:29:56 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Percent_Owned" id="318F86DE-21BA-AD1D-7FF5-C01312648EFD">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:29:56 UTC</createdTime>
+<generatorID>2CC3FF4C-B8ED-1234-C125-1BA18DF44426</generatorID>
+<ownerDesignName>activity1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A90495D-F88E-4806-0178-6DCA5D7AF270" name="Percent_Owned_PK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:29:56 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53D01321-C120-7E56-4F4C-7AAF64424C16"/>
+<colUsage columnID="0466988C-CC07-BAB5-9880-CA69EA4531D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7407637D-BE5E-24CD-A9BB-B3B41E393B53" name="Percent_Owned_Property_FK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 01:29:56 UTC</createdTime>
+<generatorID>642833EF-89B4-1715-059B-E0D588C701B0</generatorID>
+<ownerDesignName>activity1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53D01321-C120-7E56-4F4C-7AAF64424C16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

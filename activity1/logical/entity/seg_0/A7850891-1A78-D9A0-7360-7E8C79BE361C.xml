@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7850891-1A78-D9A0-7360-7E8C79BE361C" name="Sales_Office">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 00:40:41 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Office_Number" id="34C180A0-8A8D-A44E-E608-D3A1A80D07F8">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 00:40:59 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location" id="A910EFFC-1DA8-3429-5711-15D5D607E805">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 00:41:17 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<ownDataTypeParameters>22,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C43BDAF0-9BFA-0E81-0C2A-30CBF599613E" name="Sales_Office PK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-02 00:41:15 UTC</createdTime>
+<ownerDesignName>activity1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4011BFDF-1EDA-62F7-377B-C84B82CA27C7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>34C180A0-8A8D-A44E-E608-D3A1A80D07F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
