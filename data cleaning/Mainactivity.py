@@ -37,6 +37,8 @@ df["ratings"] = (
     .astype(int)
 )
 
+df["price"] = pd.to_numeric(df["price"], errors="coerce").fillna(0).astype(int)
+
 print(df["stars"])
 
 df = df.drop("stars", axis=1)
