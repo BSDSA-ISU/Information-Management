@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E956640-08DE-8989-FE36-2C8B6C01F286" name="SELLER">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-09 01:12:59 UTC</createdTime>
+<generatorID>C6CA3EDE-CA34-CD0D-54E1-EA6E5E79D871</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Member_ID" id="99A2F9CA-D232-82FC-488D-3BB098E24BD6">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-09 01:12:59 UTC</createdTime>
+<generatorID>06210CA7-DC8C-E7E4-E8DE-C4800480FF9E</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="808A0C9F-2FA9-479D-CEE2-7FEF37324908" referredColumn="EAB06601-FC81-437C-F3AC-E9D6E9A04822"/>
+</associations>
+</Column>
+<Column name="bank_account_Number" id="83E8B32C-185A-85E0-2FE4-5E1ACF86D407">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-09 01:12:59 UTC</createdTime>
+<generatorID>8B75252F-9E9C-2585-4AAC-ABBA4B392537</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Routing_Number" id="9110DE27-0C99-36AA-5238-FF7CAE041B8F">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-09 01:12:59 UTC</createdTime>
+<generatorID>48A7D520-3DB9-587A-9634-414406EC9170</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="member_id1" id="F8CAC332-AE9D-4056-4506-D4C42AD2F3B8">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:27:19 UTC</createdTime>
+<generatorID>D5A5E2B6-36F7-6BFE-038C-BDC1E169B078</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D55F714-4B0E-5F71-8BF8-94CB3D472374" name="SELLER_PK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-09 01:12:59 UTC</createdTime>
+<generatorID>374AF5D1-0855-422C-6CB5-264A4946F19B</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99A2F9CA-D232-82FC-488D-3BB098E24BD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36809B7B-F8B8-DB19-5389-87047A88B76A" name="SELLER_PKv1">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-09 01:12:59 UTC</createdTime>
+<generatorID>23BB1987-A566-0F3B-F118-995EF7BB5711</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8CAC332-AE9D-4056-4506-D4C42AD2F3B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4D551F0-764C-1B9A-A089-548EA8BEE53E" name="SELLER_Members_FK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-09 01:12:59 UTC</createdTime>
+<generatorID>41645336-A66B-937E-2BF0-81F2C81FF5FC</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99A2F9CA-D232-82FC-488D-3BB098E24BD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

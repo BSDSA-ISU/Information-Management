@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4EAE35E-CDDE-F000-A81B-EFC349A8CE93" name="feedback">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>026C89BB-6D8E-4B25-652E-4468948BC83F</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="feedback_id" id="7043D461-ECA9-1A6F-E124-73A308F98CCC">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>5E00A96B-BABF-FBBF-6AAC-658C1FA1444F</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_id" id="41682771-B223-7859-D346-298B2291EB5B">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>F9AACCF4-C726-3F86-0487-3E36CBF6561F</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rater_id" id="678AF632-BDB5-83EC-2F7B-A5FE12B21E27">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>418DD625-F90C-A929-BDE7-3D69359A81A1</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="82679A3E-DA83-D913-280F-E724388EE6AB">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>FD13C1D5-729A-3310-8A10-2457954C5D86</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment" id="72E5973F-9982-15FB-E710-A08166C64DA1">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>AD6ED16D-92AC-133C-7D76-2044BD80BB55</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Members_Member_ID" id="4D74C70F-752F-269B-7F1F-3CD5134785FE">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>84786A5C-C010-1B76-023D-42B2BAD755E1</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3A33C0F-B6F5-0BF1-03E8-0254DE62C731" referredColumn="EAB06601-FC81-437C-F3AC-E9D6E9A04822"/>
+</associations>
+</Column>
+<Column name="member_id" id="8DF423EB-D8F5-C352-A5F9-0B2F0B8D2A96">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:27:19 UTC</createdTime>
+<generatorID>3FC19C40-522F-3655-B4A2-DB3BA37303DD</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transaction_Transaction_ID" id="4DA77CBF-9F9C-9296-854C-971F44733E05">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:28:16 UTC</createdTime>
+<generatorID>FE0B6380-1E3A-9ABE-FBF2-8989A31CEE42</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="955BB64F-E21F-46F3-ECC8-F8604E456A01" referredColumn="4F826EDE-6472-1B74-A459-51DA8C9E5D10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D0467AF-0789-76FE-03E7-A6080CE573DD" name="feedback_PK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>25248A46-73D7-3C6E-A028-1239F01F3ED0</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7043D461-ECA9-1A6F-E124-73A308F98CCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67117289-D785-71CC-8878-BBB84228672B" name="feedback_Members_FK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>F5D8677F-5629-085A-C33B-82BEBD3415BC</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D74C70F-752F-269B-7F1F-3CD5134785FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEEE8AF1-6CAE-34AC-1C0E-13E79980FE98" name="feedback_Transaction_FK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:28:16 UTC</createdTime>
+<generatorID>B152678F-1CE4-D30D-3966-83423B5B80C3</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DA77CBF-9F9C-9296-854C-971F44733E05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

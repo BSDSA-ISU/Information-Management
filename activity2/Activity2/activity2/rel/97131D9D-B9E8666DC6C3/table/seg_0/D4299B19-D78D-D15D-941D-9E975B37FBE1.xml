@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4299B19-D78D-D15D-941D-9E975B37FBE1" name="Transaction">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>A8DD6A0C-14E5-2A05-1CAD-5E8868C14FF8</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Transaction_ID" id="4F826EDE-6472-1B74-A459-51DA8C9E5D10">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>FE369DB2-A499-3ABE-F973-76C61722D3C4</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="item_id" id="0A6B7F5E-369B-90F6-1F9A-1B1D1403274F">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>CB4B4E08-972D-121E-DE73-FAB57846C9D0</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="buyer_id" id="D9D44623-1A8F-F28C-61C1-3C53F8F31A04">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>10480AEF-7E64-0048-A13E-B8CEE32041A4</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seller_id" id="E6C6A150-AF70-253B-A3E5-42506BB72567">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>CE67B8A2-902F-708E-F59B-D9D678562EEE</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="final_price" id="1261F4E1-E617-2A7F-BFC3-8259F5003DD4">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>A79BBC6C-363C-0869-3EB5-B92BE9F42F41</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transcartion_date" id="EF3B564C-E8E3-1681-FB56-E65857EB3204">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>4CFA19D9-7B86-2E5E-120B-8F0414F3F0BB</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_item_id" id="090CA18F-E2C5-166D-4CF8-489C520CBA58">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>91E658A7-B719-5A75-6418-EDB596AC022A</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_seller_id" id="052CF253-8966-C44B-4EC1-E843C29410B4">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>6376A67E-E78C-6E6B-51CA-D28FD2957A31</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SELLER_member_id2" id="2669A1D9-0D8C-63FC-5B34-65771E4015BA">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:27:19 UTC</createdTime>
+<generatorID>71C97358-21D9-6821-C8B9-8C86420C336A</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B40B66C-5AF0-B488-73D7-0467CD4C8EC2" referredColumn="F8CAC332-AE9D-4056-4506-D4C42AD2F3B8"/>
+</associations>
+</Column>
+<Column name="Buyer_member_id2" id="29361273-5D09-DCBE-94DC-DDBE70FBF107">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:27:19 UTC</createdTime>
+<generatorID>2909B677-B93F-CCDC-0C90-5A8DF5D29CCD</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="150A8FDB-7F08-B582-B874-CEA4EB6C4B40" referredColumn="37331FA2-CE56-A2AF-B3A6-7F54E4FEEA53"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27A62EAC-8D53-7998-D768-5B381EEB8AB5" name="Transaction_PK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>83114C93-67EB-ED48-A366-E0C30E512D46</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F826EDE-6472-1B74-A459-51DA8C9E5D10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E9B5354-1C09-C639-C93C-F10E8F6F412D" name="Transaction__IDX">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<ownerDesignName>activity2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CBA9575D-4174-5AB0-0830-ED9C076BB0A5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="090CA18F-E2C5-166D-4CF8-489C520CBA58"/>
+<colUsage columnID="052CF253-8966-C44B-4EC1-E843C29410B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED75C9CE-B2AA-5DF5-363F-68E29F4AAC7B" name="Transaction_SELLER_FK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>610A42B8-6681-EA58-B70F-A1479B7AEB7F</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2669A1D9-0D8C-63FC-5B34-65771E4015BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8BAD06B-2833-00C9-A2F8-C92D7177B4EB" name="Transaction_Buyer_FK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:23:24 UTC</createdTime>
+<generatorID>C1CCCC5F-5B12-E0BD-DC1D-DF830C3AD769</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29361273-5D09-DCBE-94DC-DDBE70FBF107"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

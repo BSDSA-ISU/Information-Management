@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCB69190-3B06-AAB7-C2F1-188B389E9EB0" name="Buyer">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-09 01:12:59 UTC</createdTime>
+<generatorID>7D2A7C6A-B824-72FE-4A94-E7950F3CF3BB</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Member_ID" id="09320EBD-C997-8FF1-68A2-2981491A2F91">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-09 01:12:59 UTC</createdTime>
+<generatorID>06210CA7-DC8C-E7E4-E8DE-C4800480FF9E</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0697753-3F77-47F6-9C9F-51F7EB7F4D31" referredColumn="EAB06601-FC81-437C-F3AC-E9D6E9A04822"/>
+</associations>
+</Column>
+<Column name="shipping_address" id="76F7DC76-0024-7867-9288-5CCA35CBE891">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-09 01:12:59 UTC</createdTime>
+<generatorID>89E8CE7C-CC50-CB9E-5B66-D705741EB39F</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="member_id1" id="37331FA2-CE56-A2AF-B3A6-7F54E4FEEA53">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-10 23:27:19 UTC</createdTime>
+<generatorID>9367D035-2C6B-D7AD-4272-EE6E874E721B</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>67</dataTypeSize>
+<ownDataTypeParameters>67,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA4D93DB-CD1D-7D2D-51B0-5740D351FC04" name="Buyer_PK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-09 01:12:59 UTC</createdTime>
+<generatorID>374AF5D1-0855-422C-6CB5-264A4946F19B</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09320EBD-C997-8FF1-68A2-2981491A2F91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="890AC42E-1C3E-FF0D-62B3-D81399C107A4" name="Buyer_PKv1">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-09 01:12:59 UTC</createdTime>
+<generatorID>3FABABB8-9F93-4DA9-359B-15EE6370C9B8</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37331FA2-CE56-A2AF-B3A6-7F54E4FEEA53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D9605D0-DE32-5E59-4731-76201A51FF39" name="Buyer_Members_FK">
+<createdBy>ali</createdBy>
+<createdTime>2026-02-09 01:12:59 UTC</createdTime>
+<generatorID>56727C2B-69A1-6216-7371-7DEB8A96392B</generatorID>
+<ownerDesignName>activity2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09320EBD-C997-8FF1-68A2-2981491A2F91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
